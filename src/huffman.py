@@ -1,5 +1,4 @@
 import heapq
-import os
 
 class HuffmanNode:
     def __init__(self, char, freq):
@@ -63,11 +62,3 @@ def huffman_decode(encoded_data, huffman_codes):
             current_code = b""
 
     return bytes(decoded_data)
-
-def save_to_file(filename, data):
-    with open(filename, "wb") as file:
-        file.write(data)
-
-def read_from_file(filename):
-    with open(filename, "rb") as file:
-        return file.read()
