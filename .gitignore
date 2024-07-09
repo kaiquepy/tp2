@@ -1,0 +1,29 @@
+# Ignore arquivos e pastas específicas para o projeto
+
+# Byte-compiled / intermediário / depuração
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente de Virtualenv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Configurações específicas do IDE
+.idea/
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Diretórios de compilação
+build/
+dist/
