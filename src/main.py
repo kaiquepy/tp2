@@ -1,8 +1,16 @@
+"""
+Módulo principal do programa.
+Contém a função main_menu que exibe o menu principal e lida com as escolhas do usuário.
+"""
+
 from huffman import huffman_encode, huffman_decode
 from utils import save_to_file, read_from_file, clear_screen
 
 
 def main_menu():
+    """
+    Exibe o menu principal e lida com as escolhas do usuário.
+    """
     while True:
         clear_screen()
         print(f"{'='*10} Menu {'='*10}")
