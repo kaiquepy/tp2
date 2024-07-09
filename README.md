@@ -6,9 +6,9 @@ Este projeto implementa o algoritmo de compressão de Huffman em Python. O progr
 ## Como executar
 1. Certifique-se de ter o Python 3 instalado.
 2. Navegue até o diretório `src`.
-3. Execute o script `huffman.py`:
+3. Execute o script `main.py`:
 ```sh
-python3 huffman.py
+python3 main.py
 ```
 
 ## Estrutura dos Arquivos
