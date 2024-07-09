@@ -33,7 +33,9 @@ def build_huffman_tree(freq_dict):
 
     return heap[0]
 
-def build_codes_dict(node, prefix="", codes={}):
+def build_codes_dict(node, prefix="", codes=None):
+    if codes is None:
+        codes = {}
     if node is not None:
         if node.char is not None:
             codes[node.char] = prefix
