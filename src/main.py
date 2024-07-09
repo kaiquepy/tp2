@@ -4,8 +4,8 @@ from huffman import huffman_encode, huffman_decode, save_to_file, read_from_file
 def main_menu():
     while True:
         print("\nMenu:")
-        print("1. Codificar texto")
-        print("2. Decodificar texto")
+        print("1. Codificar arquivo")
+        print("2. Decodificar arquivo")
         print("3. Sair")
 
         choice = input("Escolha uma opção: ")
@@ -34,4 +34,7 @@ def main_menu():
             print("Opção inválida. Por favor, escolha novamente.")
 
 if __name__ == "__main__":
-    main_menu()
+    try:
+        main_menu()
+    except KeyboardInterrupt:
+        print("\nPrograma encerrado pelo usuário.")
